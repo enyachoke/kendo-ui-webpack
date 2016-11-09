@@ -267,7 +267,7 @@ for (var fn in mapping)
     var objs = mapping[fn];
 
     objs.forEach(function(obj) {
-      var req = JSON.stringify('kendo-ui-core/src/' + fn);
+      var req = JSON.stringify('kendo-ui-core/js/' + fn);
 
       var oi = obj.split(".");
       if (oi.shift() != "kendo")
